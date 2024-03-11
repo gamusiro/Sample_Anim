@@ -1,0 +1,12 @@
+シェーダ設定はなぜか文字だけが入力されてる状態で、設定が有効になってないので
+コンパイルエラーMSB6011が出た場合はシェーダ設定を見直す
+ShaderType /vs or /ps
+ShaderModel /5_0
+
+Shader output を $(OutDir)%fileNameではなく %fileName　にする
+
+slnファイルのある階層にアセットと.csoファイルを置く
+わかったかコノヤロー！
+
+プロジェクトはUnicode設定でbuild
+
